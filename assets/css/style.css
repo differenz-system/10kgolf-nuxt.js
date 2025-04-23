@@ -1,0 +1,91 @@
+body {
+    background-color: #f8f9fa;
+    font-family: "Poppins", sans-serif;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 40px 40px;
+    width: 100%;
+}
+
+.logo img {
+    width: 100%;
+    margin: auto;
+    display: block;
+    max-width: 150px;
+}
+
+.card h3, .card h5 {
+    margin-bottom: 0;
+    color: #213a2e;
+    margin-top: 20px;
+}
+
+.card p {
+    color: #818181 !important;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    padding: 12px 5px;
+    border: 1px solid #c7c7c7;
+}
+
+label.form-label {
+    font-weight: 500;
+}
+
+.main-btn {
+    background-color: #198754;
+    color: #fff;
+    padding: 10px;
+    font-weight: 500;
+
+}
+
+.btn-success {
+    background-color: #198754 !important;
+
+}
+
+.form-check-input:checked {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.otp-input {
+    background-color: #c7c7c7;
+    width: 80px;
+    height: 60px;
+    font-size: 24px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.otp-input:focus {
+    border-color: #28a745;
+}
+
+.otp-section {
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.splash-screen {
+    background-color: #3b8c71;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.splash-screen img {
+    max-width: 150px;
+}
